@@ -150,6 +150,36 @@ display:block;
     bottom: 20px;
     z-index: 999;
 }
+
+.consultation-button {
+  position: fixed;
+  bottom: 100px;
+  right: 20px;
+  background-color: #d32f2f;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 8px 6px;
+  border-radius: 50px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  z-index: 999;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.consultation-button a {
+  color: white;
+  text-decoration: none;
+  border: 1px solid #ddd;
+  border-radius: 15px;
+  padding: 5px 7px;
+}
+
+.consultation-button:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+
 @keyframes pulse {
   0% {
       transform: scale(1);
