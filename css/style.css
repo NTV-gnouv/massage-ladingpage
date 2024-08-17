@@ -712,8 +712,8 @@ video {
 }
 
 .size-\[148px\] {
-  width: 200px;
-  height: 200px;
+  width: 280px;
+  height: 280px;
 }
 
 .size-\[72px\] {
@@ -1069,6 +1069,10 @@ video {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+.text-xxl {
+  font-size: 1.75rem;
+  line-height: 2rem;
 }
 
 .text-xs {
