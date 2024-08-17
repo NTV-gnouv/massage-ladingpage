@@ -150,3 +150,8 @@ display:block;
     bottom: 20px;
     z-index: 999;
 }
+.logo_hd {
+  width: 70px;
+  height: auto;
+  border-radius: 15px;
+}
